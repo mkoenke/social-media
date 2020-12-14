@@ -1,5 +1,6 @@
 import React from "react"
 import Form from "../Components/Form"
+import Search from "../Components/Search"
 import UserCard from "../Components/UserCard"
 
 class UsersContainer extends React.Component {
@@ -15,6 +16,9 @@ class UsersContainer extends React.Component {
   submitHandler = (obj) => {
     console.log(obj)
   }
+  changeHandler = (e) => {
+    console.log(e.target.value)
+  }
 
   usersArray = () => {
     return this.state.people.map((user) => <UserCard userObj={user} />)
@@ -25,6 +29,7 @@ class UsersContainer extends React.Component {
       <>
         <Form submitHandler={this.submitHandler} />
         <h1>Users Container</h1>
+        <Search changeHandler={this.changeHandler} />
         {this.state.loading || !this.state.people.length ? (
           <h1>Loading...</h1>
         ) : (
