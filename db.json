@@ -1,0 +1,7 @@
+{
+    "users": [
+      { "id": 1, "name": "Mary Koenke", "dob": "Oct. 21, 1985", "location": "Mays Landing, NJ", "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.e45xlOsEEE4TuyIwO9hdRgHaEK%26pid%3DApi&f=1" },
+      { "id": 2, "name": "Angelina Ramos", "dob": "Oct. 14, 2009", "location": "Mays Landing, NJ", "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.M9AsZ7Sm6Qq-LXpY92Tt2AHaEK%26pid%3DApi&f=1" },
+      { "id": 3, "name": "Kayla Shea", "dob": "Apr. 15, 1987", "location": "Mays Landing, NJ", "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.MLLz_A6DYnKoRH1zNwdq3QHaFj%26pid%3DApi&f=1" }
+    ]
+}
